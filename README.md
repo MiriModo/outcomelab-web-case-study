@@ -59,36 +59,17 @@ routes.
 
 ## Design and brand
 
-I started from the brand, because the website had to grow out of it.
-
-**The logo** is an arrow with a dotted path going up to it, plus the
-"Outcome" wordmark with a blue dot at the end. I used the dotted path again on
-the site, as I explain below.
-
-**The colours** are deliberately few: near black ink, white and one blue,
-`#3C78FD`, the dot from the logo. The rule I set is that blue is a marker,
-never a fill. It shows up in the dot after the logo, the list bullets, the
-current step and the AI agents in diagrams, and nowhere else. Because the
-original blue is too light for small text (3.96:1 on white), there are two
-more shades of it in the code: a darker one for small text on white (5.11:1)
-and a lighter one for text on the dark panels (5.94:1). They look like the same
-blue, but they pass WCAG AA.
-
-**Typography:** Archivo for headings, with tight letter spacing, and Inter for
-everything else.
-
-**The brand kit** has seven SVG versions of the logo: horizontal, black, white,
-two gradient versions for light and dark backgrounds, the mark alone and a
-favicon. Each one comes with a note about where to use it and the minimum size
-(the mark alone only from 64px, under that the dotted path turns into a blur).
-
-**The website design** is a PDF I made with all seven pages. Things like pill
-buttons, softly rounded cards, thin lines between sections and the dark rounded
-hero panels all come from there. In the code the design tokens match the PDF,
-and some rules are written down so they don't drift: normal text is always
-Inter at 17px, and section labels always start 48px under the divider.
-
-![Brand kit](screenshots/16-brand-kit.png)
+- **Logo:** an arrow with a dotted path going up to it, and the "Outcome"
+  wordmark with a blue dot. The dotted path comes back on the site as a
+  progress ring.
+- **Colours:** ink, white and one blue, `#3C78FD`, used only as a marker,
+  never as a fill. Two extra shades of it keep small text above WCAG AA
+  contrast.
+- **Typography:** Archivo for headings, Inter for everything else.
+- **Brand kit:** seven SVG versions of the logo, each with notes on where to
+  use it and its minimum size.
+- **Website design:** a PDF with all seven pages, which the design tokens in
+  the code follow.
 
 ## Stack
 
